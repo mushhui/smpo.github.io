@@ -149,7 +149,7 @@ $(function() {
   			error = 1;
   			errormsg = 'Please enter text';
   		}
-  		if($('#description').val() !== "" && $('#description').val().length < 140) {
+  		if($('#description').val() !== "" && $('#description').val().length < 80) {
 		
   			error = 1;
   			errormsg = 'Please write a bit more';
