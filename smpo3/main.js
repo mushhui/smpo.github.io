@@ -28,7 +28,7 @@ $(function() {
 	
 	// **Tasklength**     
     // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 180000 (3min) 
-    settings.tasklength = 180000; 
+    settings.tasklength = 120000; 
 
 	
 	// **Number** **of** **"likes"**    
@@ -42,11 +42,11 @@ $(function() {
     settings.condition_2_likes = [15000,35000,80000,120000,132000,150000];  
     
     // In condition 3, user will receive 9 likes at the following timepoints (in ms). Default: [10000, 11000,15000,35000,80000,100000,110000,150000,20000]
-    settings.condition_3_likes = [11000,15000,20000,35000,65000,80000,100000,120000,150000]; 
+    settings.condition_3_likes = [12000, 14000,15000,35000,40000,80000,980000,100000,115000]; 
 
 	// **Others' likes**     
 	// To keep the total distribution of "likes" constant across conditions, The "likes" received by one group member can be adjusted according to the participant's. By default, the other group member receives 9 "likes" in the participant-ostracism condition, 5 in the participant-inclusion condtion, and 1 in the participant-overinclusion condtion.
-	settings.condition_1_adjusted_likes = [12000, 14000,15000,35000,80000,100000,110000,150000,20000]; // 9
+	settings.condition_1_adjusted_likes = [12000, 14000,15000,35000,40000,80000,980000,100000,115000]; // 9
 	settings.condition_2_adjusted_likes = [12000, 14000,15000,35000,80000]; // 5
 	settings.condition_3_adjusted_likes = [12000, 9999999]; //1	
 	
